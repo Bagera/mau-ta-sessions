@@ -1,13 +1,14 @@
-# interactivity
+# TA Sessions in ioio
 
-A collection of sketches designed to be simple and easy to extend. They demonstrate using the web platform for experimenting with interactivity.
+Code samples from my TA sessions in MAU ioio studio.
 
-We've attempted to make each sketch folder self-contained, with the idea that you simply make a new copy of the folder every time you want to make a different sketch.
+## Interactivity M1
 
-## Running
+Examples with computer vision in JavaScript
 
-Before attempting to use a sketch, check its folder for a `README.md` file which explains what it is, how it works and gives links for further reading. Some sketches require additional steps before they will do anything.
+- ### 2019-09-11 M1
 
-Sketches should work on desktop or mobile platforms, but no guarantees are made.
-
-Use Visual Studio Code and the "Live Server" extension to boot up sketches and run them in a browser. A service like [ngrok](https://ngrok.com/) can be used to make your sketches runnable on a different device. In many cases, you can also use [Glitch](https://glitch.com) to host your work.
+  - #### Temporal Chromatic Experiments
+    Replace a color in the world right now or sometime in the past
+  - #### Mind Lasers
+    Find peoples heads and connect them with lines
