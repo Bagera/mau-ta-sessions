@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--colorSecond);
+}
+
+.camera,
+.offscreenCanvas {
+  display: none;
+}
+
+.loading .canvas,
+.loading .button {
+  display: none;
+}

@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--colorSecond);
+}
+.camera {
+  display: none;
+}
+
+.canvas {
+  height: 80vmin;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.loading .canvas {
+  display: none;
+}

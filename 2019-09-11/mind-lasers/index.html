@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mind Lasers</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro&display=swap&subset=latin-ext"
+    />
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="lib/tfjs.js"></script>
+    <script defer src="lib/coco-ssd.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="loader">
+      <p class="loader-message">Loading</p>
+      <div class="loader-bar">
+        <div class="loader-indicator"></div>
+      </div>
+    </div>
+    <video class="camera" autoplay="true" width="640" height="480"></video>
+    <canvas class="canvas"></canvas>
+  </body>
+</html>
